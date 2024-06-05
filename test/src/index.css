@@ -93,8 +93,8 @@
   padding: 20px;
   margin: 10px;
   flex: 1;
-  min-width: 200px; /* Adjust this value as needed */
-  max-width: 45%; /* Adjust this value as needed */
+  min-width: 200px;
+  max-width: 45%;
   box-sizing: border-box;
 }
 
