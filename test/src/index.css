@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: baseline;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  padding: 20px;
 }
 
 .navbar {
@@ -20,12 +19,11 @@
 }
 
 .navbar-container {
-  width: 60px;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background-color: #181818;
+  width: 100%;
+}
+
+.content-container {
+  width: 80%;
 }
 
 .content-container {
@@ -77,29 +75,27 @@
   background: #ffffff;
 }
 
-.header {
+.header .title {
   text-align: left;
-  margin-bottom: 20px;
-}
-
-.title {
-  text-align: left;
-  font-size: 24px;
-  font-weight: bold;
+  margin: 20px 0;
 }
 
 .roadmap {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .quarter {
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 5px;
   background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
   flex: 1;
-  text-align: left;
+  min-width: 200px; /* Adjust this value as needed */
+  max-width: 45%; /* Adjust this value as needed */
+  box-sizing: border-box;
 }
 
 .quarter h4 {
@@ -108,7 +104,7 @@
 }
 
 .quarter-header {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .quarter-header h3 {
@@ -124,7 +120,7 @@
 }
 
 .task {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 10px;
   border: 1px solid #c5c5c5;
   border-radius: 5px;
