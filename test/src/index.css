@@ -35,11 +35,12 @@
 
 .logo-square {
   position: relative;
-  width: 35px;
-  height: 35px;
+  width: 44px;
+  height: 44px;
+  background: #FC3C62;
 }
 
-.path {
+.path1 {
   position: absolute;
   left: 0%;
   right: 0%;
@@ -48,31 +49,31 @@
   background: #FC3C62;
 }
 
-.path-2 {
+.path2 {
   position: absolute;
   left: 26.56%;
   right: 26.56%;
   top: 23.44%;
   bottom: 23.44%;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
-.path-3 {
+.path3 {
   position: absolute;
   left: 26.56%;
   right: 43.75%;
   top: 23.44%;
   bottom: 23.44%;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
-.path-4 {
+.path4 {
   position: absolute;
   left: 43.75%;
   right: 26.56%;
   top: 23.44%;
   bottom: 23.44%;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 .header .title {
